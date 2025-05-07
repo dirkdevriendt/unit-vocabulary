@@ -1,0 +1,80 @@
+﻿ID;UNIQUE_NAME;VALIDATION_STATUS;label;lingo;NAME;unique_name;ContextAlias||label||QUDT;same_unit_as;REMARK;quantity_kind;property;comments_Laura
+;;VALIDATED;%;en;%;%;PERCENT;https://qudt.org/vocab/unit/PERCENT;;https://qudt.org/vocab/quantitykind/DimensionlessRatio;percentage;
+;;DEPRECATED;% (g/100g);en;% (g/100g);% (g/100g);PERCENT;https://qudt.org/vocab/unit/PERCENT;;https://qudt.org/vocab/quantitykind/DimensionlessRatio;mass percentage;same as PERCENT
+;;DEPRECATED;% dm;en;% dm;% dm;PERCENT;https://qudt.org/vocab/unit/PERCENT;;https://qudt.org/vocab/quantitykind/DimensionlessRatio;percentage dry matter;same as PERCENT
+;;VALIDATED;µg/kg;en;µg/kg;µg/kg;MicroGM-PER-KiloGM;https://qudt.org/vocab/unit/MicroGM-PER-KiloGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;µg/kg
+;;DEPRECATED;µg/kg dm;en;µg/kg dm;µg/kg dm;MicroGM-PER-KiloGM;https://qudt.org/vocab/unit/MicroGM-PER-KiloGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio dry matter;µg/kg
+;;DEPRECATED;µg/kg ww;en;µg/kg ww;µg/kg ww;MicroGM-PER-KiloGM;https://qudt.org/vocab/unit/MicroGM-PER-KiloGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio wet weight;same as MicroGM-PER-KiloGM
+;;VALIDATED;µg/L;en;µg/L;µg/L;MicroGM-PER-L;http://qudt.org/vocab/unit/MicroGM-PER-L;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;µg/mL;en;µg/mL;µg/mL;MicroGM-PER-MilliL;https://qudt.org/vocab/unit/MicroGM-PER-MilliL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;DEPRECATED;µLU/mL;en;µLU/mL;µLU/mL;;;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;Not sure what this is
+;;VALIDATED;µmol/L;en;µmol/L;µmol/L;MicroMOL-PER-L;https://qudt.org/vocab/unit/MicroMOL-PER-L;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;
+;;DEPRECATED;adults;en;adults;adults;;;;;;is this a unit?
+;;VALIDATED;age;en;age;age;YR;https://qudt.org/vocab/unit/YR;;https://qudt.org/vocab/quantitykind/Time;time;is this not YR?
+;;DEPRECATED;amount/µL;en;amount/µL;amount/µL;;;;https://qudt.org/vocab/quantitykind/NumberDensity;amount per volume;?
+;;DEPRECATED;children;en;children;children;;;;;;is this a unit?
+;;VALIDATED;cm;en;cm;cm;CentiM;https://qudt.org/vocab/unit/CentiM;;https://qudt.org/vocab/quantitykind/Length;length;
+;;VALIDATED;days;en;days;days;DAY;https://qudt.org/vocab/unit/DAY;;https://qudt.org/vocab/quantitykind/Time ;time;
+;;DEPRECATED;fL;en;fL;fL;;;;;volume;?
+;;VALIDATED;g/dL;en;g/dL;g/dL;GM-PER-DeciL;https://qudt.org/vocab/unit/GM-PER-DeciL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;g/L;en;g/L;g/L;GM-PER-L;http://qudt.org/vocab/unit/GM-PER-L;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;g/mol;en;g/mol;g/mol;GM-PER-MOL;https://qudt.org/vocab/unit/GM-PER-MOL;;https://qudt.org/vocab/quantitykind/MolarMass;molar mass;
+;;VALIDATED;gram;en;gram;gram;GM;https://qudt.org/vocab/unit/GM;;https://qudt.org/vocab/quantitykind/Mass;mass;
+;;VALIDATED;hour;en;hour;hour;HR;https://qudt.org/vocab/unit/HR;;https://qudt.org/vocab/quantitykind/Time;time;
+;;DEPRECATED;hours;en;hours;hours;HR;https://qudt.org/vocab/unit/HR;;https://qudt.org/vocab/quantitykind/Time;time;
+;;VALIDATED;hours per week;en;hours per week;hours per week;HR-PER-WK;;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;DEPRECATED;index %;en;index %;index %;;;;;;same as PERCENT?
+;;VALIDATED;IU/L;en;IU/L;IU/L;IU-PER-L;https://qudt.org/vocab/unit/IU-PER-L;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;
+;;VALIDATED;kg;en;kg;kg;KiloGM;https://qudt.org/vocab/unit/KiloGM;;https://qudt.org/vocab/quantitykind/Mass;mass;
+;;VALIDATED;kg/m²;en;kg/m²;kg/m²;KiloGM-PER-M2;https://qudt.org/vocab/unit/KiloGM-PER-M2;;https://qudt.org/vocab/quantitykind/MassPerArea;mass per area;
+;;VALIDATED;kg/m³;en;kg/m³;kg/m³;KiloGM-PER-M3;https://qudt.org/vocab/unit/KiloGM-PER-M3;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;kU/L;en;kU/L;kU/L;KiloIU-PER-L;;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;
+;;VALIDATED;L;en;L;L;L;https://qudt.org/vocab/unit/L;;https://qudt.org/vocab/quantitykind/Volume;volume;
+;;VALIDATED;mg/dL;en;mg/dL;mg/dL;MilliGM-PER-DeciL;https://qudt.org/vocab/unit/MilliGM-PER-DeciL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;mg/L;en;mg/L;mg/L;MilliGM-PER-L;http://qudt.org/vocab/unit/MilliGM-PER-L;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;DEPRECATED;milj/µL;en;milj/µL;milj/µL;;;;;;?
+;;VALIDATED;mIU/L;en;mIU/L;mIU/L;MilliIU-PER-L;;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;
+;;DEPRECATED;mLU/L;en;mLU/L;mLU/L;;;;;;
+;;VALIDATED;mmol/mol;en;mmol/mol;mmol/mol;MilliMOL-PER-MOL;https://qudt.org/vocab/unit/MilliMOL-PER-MOL;;https://qudt.org/vocab/quantitykind/MolarRatio;molar ratio;
+;;VALIDATED;month;en;month;month;MO;https://qudt.org/vocab/unit/MO;;https://qudt.org/vocab/quantitykind/Time;time;
+;;DEPRECATED;months;en;months;months;MO;https://qudt.org/vocab/unit/MO;;https://qudt.org/vocab/quantitykind/Time;time;
+;;VALIDATED;ng/dL;en;ng/dL;ng/dL;NanoGM-PER-DeciL;https://qudt.org/vocab/unit/NanoGM-PER-DeciL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;DEPRECATED;ng/filter;en;ng/filter;ng/filter;NanoGM;http://qudt.org/vocab/unit/NanoGM;;https://qudt.org/vocab/quantitykind/Mass;mass per filter;is this just not ng?
+;;VALIDATED;ng/g;en;ng/g;ng/g;MicroGM-PER-KiloGM;https://qudt.org/vocab/unit/MicroGM-PER-KiloGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;
+;;VALIDATED;ng/L;en;ng/L;ng/L;NanoGM-PER-L;http://qudt.org/vocab/unit/NanoGM-PER-L;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;ng/mL;en;ng/mL;ng/mL;NanoGM-PER-MilliL;http://qudt.org/vocab/unit/NanoGM-PER-MilliL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;nmol/L;en;nmol/L;nmol/L;NanoMOL-PER-L;https://qudt.org/vocab/unit/NanoMOL-PER-L;;https://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration;substance concentration;
+;;VALIDATED;number;en;number;number;NUM;https://qudt.org/vocab/unit/NUM;;https://qudt.org/vocab/quantitykind/Count;number;
+;;VALIDATED;number per day;en;number per day;number per day;PER-DAY;https://qudt.org/vocab/unit/PER-DAY;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;VALIDATED;number per week;en;number per week;number per week;PER-WK;https://qudt.org/vocab/unit/PER-WK;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;VALIDATED;Osm/L;en;Osm/L;Osm/L;OSM-PER-L;;;;osmotic concentration;
+;;VALIDATED;pg;en;pg;pg;PicoGM;https://qudt.org/vocab/unit/PicoGM;;https://qudt.org/vocab/quantitykind/Mass;mass;
+;;DEPRECATED;pg BEQ/g;en;pg BEQ/g;pg BEQ/g;PicoGM-PER-GM;https://qudt.org/vocab/unit/PicoGM-PER-GM;;https://qudt.org/vocab/quantitykind/MassRatio;bioanalytical equivalent mass ratio;
+;;VALIDATED;pg/mL;en;pg/mL;pg/mL;PicoGM-PER-MilliL;https://qudt.org/vocab/unit/PicoGM-PER-MilliL;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;pmol/g;en;pmol/g;pmol/g;FemtoMOL-PER-KiloGM;https://qudt.org/vocab/unit/FemtoMOL-PER-KiloGM;;https://qudt.org/vocab/quantitykind/AmountOfSubstancePerMass;substance per mass;
+;;DEPRECATED;pmol/g globin;en;pmol/g globin;pmol/g globin;FemtoMOL-PER-KiloGM;https://qudt.org/vocab/unit/FemtoMOL-PER-KiloGM;;https://qudt.org/vocab/quantitykind/AmountOfSubstancePerMass;substance per mass;
+;;DEPRECATED;ppb;en;ppb;ppb;;;;;;
+;;DEPRECATED;pregnancies;en;pregnancies;pregnancies;;;;;;is this just not NUM?
+;;DEPRECATED;score;en;score;score;;;;;;is this just not NUM?
+;;VALIDATED;times per day;en;times per day;times per day;PER-DAY;https://qudt.org/vocab/unit/PER-DAY;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;VALIDATED;times per week;en;times per week;times per week;PER-WK;https://qudt.org/vocab/unit/PER-WK;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;VALIDATED;weeks;en;weeks;weeks;WK;https://qudt.org/vocab/unit/WK;;https://qudt.org/vocab/quantitykind/Time;time;
+;;VALIDATED;year;en;year;year;YR;https://qudt.org/vocab/unit/YR;;https://qudt.org/vocab/quantitykind/Time;time;
+;;DEPRECATED;yearindication;en;yearindication;yearindication;YR;https://qudt.org/vocab/unit/YR;;https://qudt.org/vocab/quantitykind/Time;time;same as YR
+;;DEPRECATED;years;en;years;years;YR;https://qudt.org/vocab/unit/YR;;https://qudt.org/vocab/quantitykind/Time;time;same as YR
+;;VALIDATED;;en;;;UNITLESS;https://qudt.org/vocab/unit/UNITLESS;;https://qudt.org/vocab/quantitykind/Dimensionless;observation;
+;;VALIDATED;-;en;-;-;UNITLESS;https://qudt.org/vocab/unit/UNITLESS;;https://qudt.org/vocab/quantitykind/Dimensionless;observation;
+;;VALIDATED;µg/g crt;en;µg/g crt;µg/g crt;MicroGM-PER-GM;https://qudt.org/vocab/unit/MicroGM-PER-GM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;
+;;VALIDATED;number of cells;en;number of cells;number of cells;NUM;https://qudt.org/vocab/unit/NUM;;https://qudt.org/vocab/quantitykind/Dimensionless;number of cells;
+;;VALIDATED;amount/mL;en;amount/mL;amount/mL;NUM-PER-MilliL;https://qudt.org/vocab/unit/NUM-PER-MilliL;;https://qudt.org/vocab/quantitykind/NumberDensity;amount per volume;
+;;DEPRECATED;dosing/week;en;dosing/week;dosing/week;PER-WK;https://qudt.org/vocab/unit/PER-WK;;https://qudt.org/vocab/quantitykind/Frequency;frequency;
+;;VALIDATED;µg/g;en;µg/g;µg/g;MicroGM-PER-GM;https://qudt.org/vocab/unit/MicroGM-PER-GM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;
+;;VALIDATED;kg/m2;en;kg/m2;kg/m2;KiloGM-PER-M2;https://qudt.org/vocab/unit/KiloGM-PER-M2;;https://qudt.org/vocab/quantitykind/MassPerArea;mass per area;
+;;VALIDATED;minute;en;minute;minute;MIN;https://qudt.org/vocab/unit/MIN;;https://qudt.org/vocab/quantitykind/Time;time;
+;;VALIDATED;ng/m³;en;ng/m³;ng/m³;NanoGM-PER-M3;https://qudt.org/vocab/unit/NanoGM-PER-M3;;https://qudt.org/vocab/quantitykind/MassConcentration;mass concentration;
+;;VALIDATED;pg/mg;en;pg/mg;pg/mg;PicoGM-PER-MilliGM;https://qudt.org/vocab/unit/PicoGM-PER-MilliGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;
+;;VALIDATED;ng/m²;en;ng/m²;ng/m²;NanoGM-PER-M2;https://qudt.org/vocab/unit/NanoGM-PER-M2;;https://qudt.org/vocab/quantitykind/MassPerArea;mass per area;
+;;VALIDATED;mL;en;mL;mL;MilliL;https://qudt.org/vocab/unit/MilliL;;https://qudt.org/vocab/quantitykind/Volume;volume;
+;;VALIDATED;minutes;en;minutes;minutes;MIN;https://qudt.org/vocab/unit/MIN;;https://qudt.org/vocab/quantitykind/Time;time;
+;;VALIDATED;mitochondrial/nuclear DNA;en;mitochondrial/nuclear DNA;mitochondrial/nuclear DNA;UNITLESS;https://qudt.org/vocab/unit/UNITLESS;;https://qudt.org/vocab/quantitykind/Dimensionless;mitochondrial/nuclear DNA;
+;;VALIDATED;mg/kg;en;mg/kg;mg/kg;MilliGM-PER-KiloGM;https://qudt.org/vocab/unit/MilliGM-PER-KiloGM;;https://qudt.org/vocab/quantitykind/MassRatio;mass ratio;
