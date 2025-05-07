@@ -1,9 +1,9 @@
 units:
-- id: '%'
+- id: percent
   unique_name: '%'
   name: '%'
   label: '%'
-  same_unit_as: https://qudt.org/vocab/unit/PERCENT
+  same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
   - property_name: label
@@ -13,11 +13,11 @@ units:
     context: IOP
     alias: percentage
   current_validation_status: validated
-- id: '% (g/100g)'
+- id: percent_100
   unique_name: '% (g/100g)'
   name: '% (g/100g)'
   label: '% (g/100g)'
-  same_unit_as: https://qudt.org/vocab/unit/PERCENT
+  same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
   - property_name: label
@@ -27,11 +27,11 @@ units:
     context: IOP
     alias: mass percentage
   current_validation_status: deprecated
-- id: '% dm'
+- id: percent_dm
   unique_name: '% dm'
   name: '% dm'
   label: '% dm'
-  same_unit_as: https://qudt.org/vocab/unit/PERCENT
+  same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
   - property_name: label
@@ -45,7 +45,7 @@ units:
   unique_name: µg/kg
   name: µg/kg
   label: µg/kg
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+  same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -55,11 +55,11 @@ units:
     context: IOP
     alias: mass ratio
   current_validation_status: validated
-- id: µg/kg dm
+- id: µg/kg_dm
   unique_name: µg/kg dm
   name: µg/kg dm
   label: µg/kg dm
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+  same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -69,11 +69,11 @@ units:
     context: IOP
     alias: mass ratio dry matter
   current_validation_status: deprecated
-- id: µg/kg ww
+- id: µg/kg_ww
   unique_name: µg/kg ww
   name: µg/kg ww
   label: µg/kg ww
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+  same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -87,7 +87,7 @@ units:
   unique_name: µg/L
   name: µg/L
   label: µg/L
-  same_unit_as: http://qudt.org/vocab/unit/MicroGM-PER-L
+  same_unit_as: MicroGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -101,7 +101,7 @@ units:
   unique_name: µg/mL
   name: µg/mL
   label: µg/mL
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-MilliL
+  same_unit_as: MicroGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -127,7 +127,7 @@ units:
   unique_name: µmol/L
   name: µmol/L
   label: µmol/L
-  same_unit_as: https://qudt.org/vocab/unit/MicroMOL-PER-L
+  same_unit_as: MicroMOL-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
   - property_name: label
@@ -151,7 +151,7 @@ units:
   unique_name: age
   name: age
   label: age
-  same_unit_as: https://qudt.org/vocab/unit/YR
+  same_unit_as: YR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -187,7 +187,7 @@ units:
   unique_name: cm
   name: cm
   label: cm
-  same_unit_as: https://qudt.org/vocab/unit/CentiM
+  same_unit_as: CentiM
   quantity_kind: Length
   context_aliases:
   - property_name: label
@@ -201,7 +201,7 @@ units:
   unique_name: days
   name: days
   label: days
-  same_unit_as: https://qudt.org/vocab/unit/DAY
+  same_unit_as: DAY
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -226,7 +226,7 @@ units:
   unique_name: g/dL
   name: g/dL
   label: g/dL
-  same_unit_as: https://qudt.org/vocab/unit/GM-PER-DeciL
+  same_unit_as: GM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -240,7 +240,7 @@ units:
   unique_name: g/L
   name: g/L
   label: g/L
-  same_unit_as: http://qudt.org/vocab/unit/GM-PER-L
+  same_unit_as: GM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -254,7 +254,7 @@ units:
   unique_name: g/mol
   name: g/mol
   label: g/mol
-  same_unit_as: https://qudt.org/vocab/unit/GM-PER-MOL
+  same_unit_as: GM-PER-MOL
   quantity_kind: MolarMass
   context_aliases:
   - property_name: label
@@ -268,7 +268,7 @@ units:
   unique_name: gram
   name: gram
   label: gram
-  same_unit_as: https://qudt.org/vocab/unit/GM
+  same_unit_as: GM
   quantity_kind: Mass
   context_aliases:
   - property_name: label
@@ -282,7 +282,7 @@ units:
   unique_name: hour
   name: hour
   label: hour
-  same_unit_as: https://qudt.org/vocab/unit/HR
+  same_unit_as: HR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -296,7 +296,7 @@ units:
   unique_name: hours
   name: hours
   label: hours
-  same_unit_as: https://qudt.org/vocab/unit/HR
+  same_unit_as: HR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -306,7 +306,7 @@ units:
     context: IOP
     alias: time
   current_validation_status: deprecated
-- id: hours per week
+- id: hours_per_week
   unique_name: hours per week
   name: hours per week
   label: hours per week
@@ -319,7 +319,7 @@ units:
     context: IOP
     alias: frequency
   current_validation_status: validated
-- id: index %
+- id: index_percent
   unique_name: index %
   name: index %
   label: index %
@@ -333,7 +333,7 @@ units:
   unique_name: IU/L
   name: IU/L
   label: IU/L
-  same_unit_as: https://qudt.org/vocab/unit/IU-PER-L
+  same_unit_as: IU-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
   - property_name: label
@@ -347,7 +347,7 @@ units:
   unique_name: kg
   name: kg
   label: kg
-  same_unit_as: https://qudt.org/vocab/unit/KiloGM
+  same_unit_as: KiloGM
   quantity_kind: Mass
   context_aliases:
   - property_name: label
@@ -361,7 +361,7 @@ units:
   unique_name: kg/m²
   name: kg/m²
   label: kg/m²
-  same_unit_as: https://qudt.org/vocab/unit/KiloGM-PER-M2
+  same_unit_as: KiloGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
   - property_name: label
@@ -375,7 +375,7 @@ units:
   unique_name: kg/m³
   name: kg/m³
   label: kg/m³
-  same_unit_as: https://qudt.org/vocab/unit/KiloGM-PER-M3
+  same_unit_as: KiloGM-PER-M3
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -402,7 +402,7 @@ units:
   unique_name: L
   name: L
   label: L
-  same_unit_as: https://qudt.org/vocab/unit/L
+  same_unit_as: L
   quantity_kind: Volume
   context_aliases:
   - property_name: label
@@ -416,7 +416,7 @@ units:
   unique_name: mg/dL
   name: mg/dL
   label: mg/dL
-  same_unit_as: https://qudt.org/vocab/unit/MilliGM-PER-DeciL
+  same_unit_as: MilliGM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -430,7 +430,7 @@ units:
   unique_name: mg/L
   name: mg/L
   label: mg/L
-  same_unit_as: http://qudt.org/vocab/unit/MilliGM-PER-L
+  same_unit_as: MilliGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -477,7 +477,7 @@ units:
   unique_name: mmol/mol
   name: mmol/mol
   label: mmol/mol
-  same_unit_as: https://qudt.org/vocab/unit/MilliMOL-PER-MOL
+  same_unit_as: MilliMOL-PER-MOL
   quantity_kind: MolarRatio
   context_aliases:
   - property_name: label
@@ -491,7 +491,7 @@ units:
   unique_name: month
   name: month
   label: month
-  same_unit_as: https://qudt.org/vocab/unit/MO
+  same_unit_as: MO
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -505,7 +505,7 @@ units:
   unique_name: months
   name: months
   label: months
-  same_unit_as: https://qudt.org/vocab/unit/MO
+  same_unit_as: MO
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -519,7 +519,7 @@ units:
   unique_name: ng/dL
   name: ng/dL
   label: ng/dL
-  same_unit_as: https://qudt.org/vocab/unit/NanoGM-PER-DeciL
+  same_unit_as: NanoGM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -533,7 +533,7 @@ units:
   unique_name: ng/filter
   name: ng/filter
   label: ng/filter
-  same_unit_as: http://qudt.org/vocab/unit/NanoGM
+  same_unit_as: NanoGM
   quantity_kind: Mass
   context_aliases:
   - property_name: label
@@ -547,7 +547,7 @@ units:
   unique_name: ng/g
   name: ng/g
   label: ng/g
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+  same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -561,7 +561,7 @@ units:
   unique_name: ng/L
   name: ng/L
   label: ng/L
-  same_unit_as: http://qudt.org/vocab/unit/NanoGM-PER-L
+  same_unit_as: NanoGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -575,7 +575,7 @@ units:
   unique_name: ng/mL
   name: ng/mL
   label: ng/mL
-  same_unit_as: http://qudt.org/vocab/unit/NanoGM-PER-MilliL
+  same_unit_as: NanoGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -589,7 +589,7 @@ units:
   unique_name: nmol/L
   name: nmol/L
   label: nmol/L
-  same_unit_as: https://qudt.org/vocab/unit/NanoMOL-PER-L
+  same_unit_as: NanoMOL-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
   - property_name: label
@@ -603,7 +603,7 @@ units:
   unique_name: number
   name: number
   label: number
-  same_unit_as: https://qudt.org/vocab/unit/NUM
+  same_unit_as: NUM
   quantity_kind: Count
   context_aliases:
   - property_name: label
@@ -613,11 +613,11 @@ units:
     context: IOP
     alias: number
   current_validation_status: validated
-- id: number per day
+- id: number_per_day
   unique_name: number per day
   name: number per day
   label: number per day
-  same_unit_as: https://qudt.org/vocab/unit/PER-DAY
+  same_unit_as: PER-DAY
   quantity_kind: Frequency
   context_aliases:
   - property_name: label
@@ -627,11 +627,11 @@ units:
     context: IOP
     alias: frequency
   current_validation_status: validated
-- id: number per week
+- id: number_per_week
   unique_name: number per week
   name: number per week
   label: number per week
-  same_unit_as: https://qudt.org/vocab/unit/PER-WK
+  same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
   - property_name: label
@@ -657,7 +657,7 @@ units:
   unique_name: pg
   name: pg
   label: pg
-  same_unit_as: https://qudt.org/vocab/unit/PicoGM
+  same_unit_as: PicoGM
   quantity_kind: Mass
   context_aliases:
   - property_name: label
@@ -667,11 +667,11 @@ units:
     context: IOP
     alias: mass
   current_validation_status: validated
-- id: pg BEQ/g
+- id: pg_BEQ/g
   unique_name: pg BEQ/g
   name: pg BEQ/g
   label: pg BEQ/g
-  same_unit_as: https://qudt.org/vocab/unit/PicoGM-PER-GM
+  same_unit_as: PicoGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -685,7 +685,7 @@ units:
   unique_name: pg/mL
   name: pg/mL
   label: pg/mL
-  same_unit_as: https://qudt.org/vocab/unit/PicoGM-PER-MilliL
+  same_unit_as: PicoGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -699,7 +699,7 @@ units:
   unique_name: pmol/g
   name: pmol/g
   label: pmol/g
-  same_unit_as: https://qudt.org/vocab/unit/FemtoMOL-PER-KiloGM
+  same_unit_as: FemtoMOL-PER-KiloGM
   quantity_kind: AmountOfSubstancePerMass
   context_aliases:
   - property_name: label
@@ -709,11 +709,11 @@ units:
     context: IOP
     alias: substance per mass
   current_validation_status: validated
-- id: pmol/g globin
+- id: pmol/g_globin
   unique_name: pmol/g globin
   name: pmol/g globin
   label: pmol/g globin
-  same_unit_as: https://qudt.org/vocab/unit/FemtoMOL-PER-KiloGM
+  same_unit_as: FemtoMOL-PER-KiloGM
   quantity_kind: AmountOfSubstancePerMass
   context_aliases:
   - property_name: label
@@ -753,11 +753,11 @@ units:
   - property_name: label
     context: IOP
   current_validation_status: deprecated
-- id: times per day
+- id: times_per_day
   unique_name: times per day
   name: times per day
   label: times per day
-  same_unit_as: https://qudt.org/vocab/unit/PER-DAY
+  same_unit_as: PER-DAY
   quantity_kind: Frequency
   context_aliases:
   - property_name: label
@@ -767,11 +767,11 @@ units:
     context: IOP
     alias: frequency
   current_validation_status: validated
-- id: times per week
+- id: times_per_week
   unique_name: times per week
   name: times per week
   label: times per week
-  same_unit_as: https://qudt.org/vocab/unit/PER-WK
+  same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
   - property_name: label
@@ -785,7 +785,7 @@ units:
   unique_name: weeks
   name: weeks
   label: weeks
-  same_unit_as: https://qudt.org/vocab/unit/WK
+  same_unit_as: WK
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -799,7 +799,7 @@ units:
   unique_name: year
   name: year
   label: year
-  same_unit_as: https://qudt.org/vocab/unit/YR
+  same_unit_as: YR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -813,7 +813,7 @@ units:
   unique_name: yearindication
   name: yearindication
   label: yearindication
-  same_unit_as: https://qudt.org/vocab/unit/YR
+  same_unit_as: YR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -827,7 +827,7 @@ units:
   unique_name: years
   name: years
   label: years
-  same_unit_as: https://qudt.org/vocab/unit/YR
+  same_unit_as: YR
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -838,7 +838,7 @@ units:
     alias: time
   current_validation_status: deprecated
 - id: '[placeholder]'
-  same_unit_as: https://qudt.org/vocab/unit/UNITLESS
+  same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label
@@ -852,7 +852,7 @@ units:
   unique_name: '-'
   name: '-'
   label: '-'
-  same_unit_as: https://qudt.org/vocab/unit/UNITLESS
+  same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label
@@ -862,11 +862,11 @@ units:
     context: IOP
     alias: observation
   current_validation_status: validated
-- id: µg/g crt
+- id: µg/g_crt
   unique_name: µg/g crt
   name: µg/g crt
   label: µg/g crt
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-GM
+  same_unit_as: MicroGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -876,11 +876,11 @@ units:
     context: IOP
     alias: mass ratio
   current_validation_status: validated
-- id: number of cells
+- id: number_of_cells
   unique_name: number of cells
   name: number of cells
   label: number of cells
-  same_unit_as: https://qudt.org/vocab/unit/NUM
+  same_unit_as: NUM
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label
@@ -894,7 +894,7 @@ units:
   unique_name: amount/mL
   name: amount/mL
   label: amount/mL
-  same_unit_as: https://qudt.org/vocab/unit/NUM-PER-MilliL
+  same_unit_as: NUM-PER-MilliL
   quantity_kind: NumberDensity
   context_aliases:
   - property_name: label
@@ -908,7 +908,7 @@ units:
   unique_name: dosing/week
   name: dosing/week
   label: dosing/week
-  same_unit_as: https://qudt.org/vocab/unit/PER-WK
+  same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
   - property_name: label
@@ -922,7 +922,7 @@ units:
   unique_name: µg/g
   name: µg/g
   label: µg/g
-  same_unit_as: https://qudt.org/vocab/unit/MicroGM-PER-GM
+  same_unit_as: MicroGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -936,7 +936,7 @@ units:
   unique_name: kg/m2
   name: kg/m2
   label: kg/m2
-  same_unit_as: https://qudt.org/vocab/unit/KiloGM-PER-M2
+  same_unit_as: KiloGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
   - property_name: label
@@ -950,7 +950,7 @@ units:
   unique_name: minute
   name: minute
   label: minute
-  same_unit_as: https://qudt.org/vocab/unit/MIN
+  same_unit_as: MIN
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -964,7 +964,7 @@ units:
   unique_name: ng/m³
   name: ng/m³
   label: ng/m³
-  same_unit_as: https://qudt.org/vocab/unit/NanoGM-PER-M3
+  same_unit_as: NanoGM-PER-M3
   quantity_kind: MassConcentration
   context_aliases:
   - property_name: label
@@ -978,7 +978,7 @@ units:
   unique_name: pg/mg
   name: pg/mg
   label: pg/mg
-  same_unit_as: https://qudt.org/vocab/unit/PicoGM-PER-MilliGM
+  same_unit_as: PicoGM-PER-MilliGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
@@ -992,7 +992,7 @@ units:
   unique_name: ng/m²
   name: ng/m²
   label: ng/m²
-  same_unit_as: https://qudt.org/vocab/unit/NanoGM-PER-M2
+  same_unit_as: NanoGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
   - property_name: label
@@ -1006,7 +1006,7 @@ units:
   unique_name: mL
   name: mL
   label: mL
-  same_unit_as: https://qudt.org/vocab/unit/MilliL
+  same_unit_as: MilliL
   quantity_kind: Volume
   context_aliases:
   - property_name: label
@@ -1020,7 +1020,7 @@ units:
   unique_name: minutes
   name: minutes
   label: minutes
-  same_unit_as: https://qudt.org/vocab/unit/MIN
+  same_unit_as: MIN
   quantity_kind: Time
   context_aliases:
   - property_name: label
@@ -1030,11 +1030,11 @@ units:
     context: IOP
     alias: time
   current_validation_status: validated
-- id: mitochondrial/nuclear DNA
+- id: mitochondrial/nuclear_DNA
   unique_name: mitochondrial/nuclear DNA
   name: mitochondrial/nuclear DNA
   label: mitochondrial/nuclear DNA
-  same_unit_as: https://qudt.org/vocab/unit/UNITLESS
+  same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label
@@ -1048,7 +1048,7 @@ units:
   unique_name: mg/kg
   name: mg/kg
   label: mg/kg
-  same_unit_as: https://qudt.org/vocab/unit/MilliGM-PER-KiloGM
+  same_unit_as: MilliGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
   - property_name: label
