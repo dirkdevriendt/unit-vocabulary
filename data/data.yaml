@@ -839,6 +839,7 @@ units:
   current_validation_status: deprecated
 - id: '[placeholder]'
   same_unit_as: UNITLESS
+  label: 'placeholder'
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label

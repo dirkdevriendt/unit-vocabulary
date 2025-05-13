@@ -1,0 +1,163 @@
+version: 0.1.0
+release_date: "XXXX-XX-XX"
+maintainer: "gertjan.bisschop@vito.be"
+
+changes:
+- label: '%'
+  action: added
+- label: '% (g/100g)'
+  action: added
+- label: '% dm'
+  action: added
+- label: "\xB5g/kg"
+  action: added
+- label: "\xB5g/kg dm"
+  action: added
+- label: "\xB5g/kg ww"
+  action: added
+- label: "\xB5g/L"
+  action: added
+- label: "\xB5g/mL"
+  action: added
+- label: "\xB5LU/mL"
+  action: added
+- label: "\xB5mol/L"
+  action: added
+- label: adults
+  action: added
+- label: age
+  action: added
+- label: "amount/\xB5L"
+  action: added
+- label: children
+  action: added
+- label: cm
+  action: added
+- label: days
+  action: added
+- label: fL
+  action: added
+- label: g/dL
+  action: added
+- label: g/L
+  action: added
+- label: g/mol
+  action: added
+- label: gram
+  action: added
+- label: hour
+  action: added
+- label: hours
+  action: added
+- label: hours per week
+  action: added
+- label: index %
+  action: added
+- label: IU/L
+  action: added
+- label: kg
+  action: added
+- label: "kg/m\xB2"
+  action: added
+- label: "kg/m\xB3"
+  action: added
+- label: kU/L
+  action: added
+- label: L
+  action: added
+- label: mg/dL
+  action: added
+- label: mg/L
+  action: added
+- label: "milj/\xB5L"
+  action: added
+- label: mIU/L
+  action: added
+- label: mLU/L
+  action: added
+- label: mmol/mol
+  action: added
+- label: month
+  action: added
+- label: months
+  action: added
+- label: ng/dL
+  action: added
+- label: ng/filter
+  action: added
+- label: ng/g
+  action: added
+- label: ng/L
+  action: added
+- label: ng/mL
+  action: added
+- label: nmol/L
+  action: added
+- label: number
+  action: added
+- label: number per day
+  action: added
+- label: number per week
+  action: added
+- label: Osm/L
+  action: added
+- label: pg
+  action: added
+- label: pg BEQ/g
+  action: added
+- label: pg/mL
+  action: added
+- label: pmol/g
+  action: added
+- label: pmol/g globin
+  action: added
+- label: ppb
+  action: added
+- label: pregnancies
+  action: added
+- label: score
+  action: added
+- label: times per day
+  action: added
+- label: times per week
+  action: added
+- label: weeks
+  action: added
+- label: year
+  action: added
+- label: yearindication
+  action: added
+- label: years
+  action: added
+- label: placeholder
+  action: added
+- label: '-'
+  action: added
+- label: "\xB5g/g crt"
+  action: added
+- label: number of cells
+  action: added
+- label: amount/mL
+  action: added
+- label: dosing/week
+  action: added
+- label: "\xB5g/g"
+  action: added
+- label: kg/m2
+  action: added
+- label: minute
+  action: added
+- label: "ng/m\xB3"
+  action: added
+- label: pg/mg
+  action: added
+- label: "ng/m\xB2"
+  action: added
+- label: mL
+  action: added
+- label: minutes
+  action: added
+- label: mitochondrial/nuclear DNA
+  action: added
+- label: mg/kg
+  action: added
