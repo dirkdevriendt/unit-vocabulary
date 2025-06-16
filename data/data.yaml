@@ -1162,7 +1162,7 @@ units:
 - id: unitless
   unique_name: unitless
   name: unitless
-  label: ''
+  label: unitless
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
