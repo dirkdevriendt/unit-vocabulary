@@ -838,8 +838,10 @@ units:
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-6a99c575ab
+  unique_name: '[placeholder]'
+  name: '[placeholder]'
+  label: '[placeholder]'
   same_unit_as: UNITLESS
-  label: placeholder
   quantity_kind: Dimensionless
   context_aliases:
   - property_name: label
@@ -848,7 +850,7 @@ units:
   - property_name: label
     context: IOP
     alias: observation
-  current_validation_status: validated
+  current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-336d5ebc54
   unique_name: '-'
   name: '-'
@@ -862,7 +864,7 @@ units:
   - property_name: label
     context: IOP
     alias: observation
-  current_validation_status: validated
+  current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-2499a12de8
   unique_name: µg/g crt
   name: µg/g crt
@@ -1058,4 +1060,156 @@ units:
   - property_name: label
     context: IOP
     alias: mass ratio
+  current_validation_status: validated
+- id: '‰'
+  unique_name: '‰'
+  name: '‰'
+  label: '‰'
+  same_unit_as: PPTH
+  quantity_kind: DimensionlessRatio
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: PPTH
+  - property_name: label
+    context: IOP
+    alias: ratio
+  current_validation_status: validated
+- id: mmHg
+  unique_name: mmHg
+  name: mmHg
+  label: mmHg
+  same_unit_as: MilliM_HG
+  quantity_kind: Pressure
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: MilliM_HG
+  - property_name: label
+    context: IOP
+    alias: pressure
+  current_validation_status: validated
+- id: mg/g
+  unique_name: mg/g
+  name: mg/g
+  label: mg/g
+  same_unit_as: MilliGM-PER-GM
+  quantity_kind: MassRatio
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: MilliGM-PER-GM
+  - property_name: label
+    context: IOP
+    alias: mass ratio
+  current_validation_status: validated
+- id: U/L
+  unique_name: U/L
+  name: U/L
+  label: U/L
+  same_unit_as: IU-PER-L
+  quantity_kind: AmountOfSubstanceConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: IU-PER-L
+  - property_name: label
+    context: IOP
+    alias: amount per volume
+  current_validation_status: validated
+- id: IU/mL
+  unique_name: IU/mL
+  name: IU/mL
+  label: IU/mL
+  same_unit_as: IU-PER-MilliL
+  quantity_kind: AmountOfSubstanceConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: IU-PER-MilliL
+  - property_name: label
+    context: IOP
+    alias: amount per volume
+  current_validation_status: validated
+- id: g
+  unique_name: g
+  name: g
+  label: g
+  same_unit_as: GM
+  quantity_kind: Mass
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: GM
+  - property_name: label
+    context: IOP
+    alias: mass
+  current_validation_status: validated
+- id: ng/ml
+  unique_name: ng/ml
+  name: ng/ml
+  label: ng/ml
+  same_unit_as: NanoGM-PER-MilliL
+  quantity_kind: MassConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: NanoGM-PER-MilliL
+  - property_name: label
+    context: IOP
+    alias: mass concentration
+  current_validation_status: validated
+- id: unitless
+  unique_name: unitless
+  name: unitless
+  label: unitless
+  same_unit_as: UNITLESS
+  quantity_kind: Dimensionless
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: UNITLESS
+  - property_name: label
+    context: IOP
+    alias: observation
+  current_validation_status: validated
+- id: µg/ml
+  unique_name: µg/ml
+  name: µg/ml
+  label: µg/ml
+  same_unit_as: MicroGM-PER-MilliL
+  quantity_kind: MassConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: MicroGM-PER-MilliL
+  - property_name: label
+    context: IOP
+    alias: mass concentration
+  current_validation_status: validated
+- id: μIU/mL
+  unique_name: μIU/mL
+  name: μIU/mL
+  label: μIU/mL
+  quantity_kind: AmountOfSubstanceConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+  - property_name: label
+    context: IOP
+    alias: amount per volume
+  current_validation_status: validated
+- id: μg/L
+  unique_name: μg/L
+  name: μg/L
+  label: μg/L
+  same_unit_as: MicroGM-PER-L
+  quantity_kind: MassConcentration
+  context_aliases:
+  - property_name: label
+    context: QUDT
+    alias: MicroGM-PER-L
+  - property_name: label
+    context: IOP
+    alias: mass concentration
   current_validation_status: validated
