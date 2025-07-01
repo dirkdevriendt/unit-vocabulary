@@ -838,9 +838,9 @@ units:
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-6a99c575ab
-  unique_name: 'placeholder'
-  name: 'placeholder'
-  label: 'placeholder'
+  unique_name: placeholder
+  name: placeholder
+  label: placeholder
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
