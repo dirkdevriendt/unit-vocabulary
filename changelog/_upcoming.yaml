@@ -2,162 +2,185 @@ version: 0.1.0
 release_date: "XXXX-XX-XX"
 maintainer: "gertjan.bisschop@vito.be"
 
-changes:
-- label: '%'
+terms:
+- unique_name: '%'
   action: added
-- label: '% (g/100g)'
+- unique_name: '% (g/100g)'
   action: added
-- label: '% dm'
+- unique_name: '% dm'
   action: added
-- label: "\xB5g/kg"
+- unique_name: µg/kg
   action: added
-- label: "\xB5g/kg dm"
+- unique_name: µg/kg dm
   action: added
-- label: "\xB5g/kg ww"
+- unique_name: µg/kg ww
   action: added
-- label: "\xB5g/L"
+- unique_name: µg/L
   action: added
-- label: "\xB5g/mL"
+- unique_name: µg/mL
   action: added
-- label: "\xB5LU/mL"
+- unique_name: µLU/mL
   action: added
-- label: "\xB5mol/L"
+- unique_name: µmol/L
   action: added
-- label: adults
+- unique_name: adults
   action: added
-- label: age
+- unique_name: age
   action: added
-- label: "amount/\xB5L"
+- unique_name: amount/µL
   action: added
-- label: children
+- unique_name: children
   action: added
-- label: cm
+- unique_name: cm
   action: added
-- label: days
+- unique_name: days
   action: added
-- label: fL
+- unique_name: fL
   action: added
-- label: g/dL
+- unique_name: g/dL
   action: added
-- label: g/L
+- unique_name: g/L
   action: added
-- label: g/mol
+- unique_name: g/mol
   action: added
-- label: gram
+- unique_name: gram
   action: added
-- label: hour
+- unique_name: hour
   action: added
-- label: hours
+- unique_name: hours
   action: added
-- label: hours per week
+- unique_name: hours per week
   action: added
-- label: index %
+- unique_name: index %
   action: added
-- label: IU/L
+- unique_name: IU/L
   action: added
-- label: kg
+- unique_name: kg
   action: added
-- label: "kg/m\xB2"
+- unique_name: kg/m²
   action: added
-- label: "kg/m\xB3"
+- unique_name: kg/m³
   action: added
-- label: kU/L
+- unique_name: kU/L
   action: added
-- label: L
+- unique_name: L
   action: added
-- label: mg/dL
+- unique_name: mg/dL
   action: added
-- label: mg/L
+- unique_name: mg/L
   action: added
-- label: "milj/\xB5L"
+- unique_name: milj/µL
   action: added
-- label: mIU/L
+- unique_name: mIU/L
   action: added
-- label: mLU/L
+- unique_name: mLU/L
   action: added
-- label: mmol/mol
+- unique_name: mmol/mol
   action: added
-- label: month
+- unique_name: month
   action: added
-- label: months
+- unique_name: months
   action: added
-- label: ng/dL
+- unique_name: ng/dL
   action: added
-- label: ng/filter
+- unique_name: ng/filter
   action: added
-- label: ng/g
+- unique_name: ng/g
   action: added
-- label: ng/L
+- unique_name: ng/L
   action: added
-- label: ng/mL
+- unique_name: ng/mL
   action: added
-- label: nmol/L
+- unique_name: nmol/L
   action: added
-- label: number
+- unique_name: number
   action: added
-- label: number per day
+- unique_name: number per day
   action: added
-- label: number per week
+- unique_name: number per week
   action: added
-- label: Osm/L
+- unique_name: Osm/L
   action: added
-- label: pg
+- unique_name: pg
   action: added
-- label: pg BEQ/g
+- unique_name: pg BEQ/g
   action: added
-- label: pg/mL
+- unique_name: pg/mL
   action: added
-- label: pmol/g
+- unique_name: pmol/g
   action: added
-- label: pmol/g globin
+- unique_name: pmol/g globin
   action: added
-- label: ppb
+- unique_name: ppb
   action: added
-- label: pregnancies
+- unique_name: pregnancies
   action: added
-- label: score
+- unique_name: score
   action: added
-- label: times per day
+- unique_name: times per day
   action: added
-- label: times per week
+- unique_name: times per week
   action: added
-- label: weeks
+- unique_name: weeks
   action: added
-- label: year
+- unique_name: year
   action: added
-- label: yearindication
+- unique_name: yearindication
   action: added
-- label: years
+- unique_name: years
   action: added
-- label: placeholder
+- unique_name: placeholder
   action: added
-- label: '-'
+- unique_name: '-'
   action: added
-- label: "\xB5g/g crt"
+- unique_name: µg/g crt
   action: added
-- label: number of cells
+- unique_name: number of cells
   action: added
-- label: amount/mL
+- unique_name: amount/mL
   action: added
-- label: dosing/week
+- unique_name: dosing/week
   action: added
-- label: "\xB5g/g"
+- unique_name: µg/g
   action: added
-- label: kg/m2
+- unique_name: kg/m2
   action: added
-- label: minute
+- unique_name: minute
   action: added
-- label: "ng/m\xB3"
+- unique_name: ng/m³
   action: added
-- label: pg/mg
+- unique_name: pg/mg
   action: added
-- label: "ng/m\xB2"
+- unique_name: ng/m²
   action: added
-- label: mL
+- unique_name: mL
   action: added
-- label: minutes
+- unique_name: minutes
   action: added
-- label: mitochondrial/nuclear DNA
+- unique_name: mitochondrial/nuclear DNA
   action: added
-- label: mg/kg
+- unique_name: mg/kg
   action: added
+- unique_name: ‰
+  action: added
+- unique_name: mmHg
+  action: added
+- unique_name: mg/g
+  action: added
+- unique_name: U/L
+  action: added
+- unique_name: IU/mL
+  action: added
+- unique_name: g
+  action: added
+- unique_name: ng/ml
+  action: added
+- unique_name: unitless
+  action: added
+- unique_name: µg/ml
+  action: added
+- unique_name: μIU/mL
+  action: added
+- unique_name: μg/L
+  action: added
+
