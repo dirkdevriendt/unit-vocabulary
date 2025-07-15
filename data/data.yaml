@@ -2,1214 +2,1214 @@ units:
 - id: https://w3id.org/peh/UN-0bcef9c45b
   unique_name: '%'
   name: '%'
-  label: '%'
+  ui_label: '%'
   same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PERCENT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: percentage
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-edd02d338d
   unique_name: '% (g/100g)'
   name: '% (g/100g)'
-  label: '% (g/100g)'
+  ui_label: '% (g/100g)'
   same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PERCENT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass percentage
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-5c38bb6649
   unique_name: '% dm'
   name: '% dm'
-  label: '% dm'
+  ui_label: '% dm'
   same_unit_as: PERCENT
   quantity_kind: DimensionlessRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PERCENT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: percentage dry matter
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-1f6562629f
   unique_name: µg/kg
   name: µg/kg
-  label: µg/kg
+  ui_label: µg/kg
   same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-8f78b0a72f
   unique_name: µg/kg dm
   name: µg/kg dm
-  label: µg/kg dm
+  ui_label: µg/kg dm
   same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio dry matter
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-6ac81f6096
   unique_name: µg/kg ww
   name: µg/kg ww
-  label: µg/kg ww
+  ui_label: µg/kg ww
   same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio wet weight
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-038032dda5
   unique_name: µg/L
   name: µg/L
-  label: µg/L
+  ui_label: µg/L
   same_unit_as: MicroGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-5e372a8740
   unique_name: µg/mL
   name: µg/mL
-  label: µg/mL
+  ui_label: µg/mL
   same_unit_as: MicroGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-cf0c7bbb84
   unique_name: µLU/mL
   name: µLU/mL
-  label: µLU/mL
+  ui_label: µLU/mL
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-7a2bae180d
   unique_name: µmol/L
   name: µmol/L
-  label: µmol/L
+  ui_label: µmol/L
   same_unit_as: MicroMOL-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroMOL-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-0e18c75349
   unique_name: adults
   name: adults
-  label: adults
+  ui_label: adults
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-7d637d2756
   unique_name: age
   name: age
-  label: age
+  ui_label: age
   same_unit_as: YR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: YR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-309470d320
   unique_name: amount/µL
   name: amount/µL
-  label: amount/µL
+  ui_label: amount/µL
   quantity_kind: NumberDensity
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: amount per volume
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-268184c12d
   unique_name: children
   name: children
-  label: children
+  ui_label: children
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-820eb5b696
   unique_name: cm
   name: cm
-  label: cm
+  ui_label: cm
   same_unit_as: CentiM
   quantity_kind: Length
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: CentiM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: length
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-44fdec4703
   unique_name: days
   name: days
-  label: days
+  ui_label: days
   same_unit_as: DAY
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: DAY
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-543e0a9e45
   unique_name: fL
   name: fL
-  label: fL
+  ui_label: fL
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: volume
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-d45981f8bf
   unique_name: g/dL
   name: g/dL
-  label: g/dL
+  ui_label: g/dL
   same_unit_as: GM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: GM-PER-DeciL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-0be7857b28
   unique_name: g/L
   name: g/L
-  label: g/L
+  ui_label: g/L
   same_unit_as: GM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: GM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-44e03ff8c2
   unique_name: g/mol
   name: g/mol
-  label: g/mol
+  ui_label: g/mol
   same_unit_as: GM-PER-MOL
   quantity_kind: MolarMass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: GM-PER-MOL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: molar mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-c5bc23dc24
   unique_name: gram
   name: gram
-  label: gram
+  ui_label: gram
   same_unit_as: GM
   quantity_kind: Mass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-896c55cc5e
   unique_name: hour
   name: hour
-  label: hour
+  ui_label: hour
   same_unit_as: HR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: HR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-73cdddd773
   unique_name: hours
   name: hours
-  label: hours
+  ui_label: hours
   same_unit_as: HR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: HR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-6e71d19b3e
   unique_name: hours per week
   name: hours per week
-  label: hours per week
+  ui_label: hours per week
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: HR-PER-WK
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-69d976d404
   unique_name: index %
   name: index %
-  label: index %
+  ui_label: index %
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-d2412e7880
   unique_name: IU/L
   name: IU/L
-  label: IU/L
+  ui_label: IU/L
   same_unit_as: IU-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: IU-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-ebe8668266
   unique_name: kg
   name: kg
-  label: kg
+  ui_label: kg
   same_unit_as: KiloGM
   quantity_kind: Mass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-52925b0355
   unique_name: kg/m²
   name: kg/m²
-  label: kg/m²
+  ui_label: kg/m²
   same_unit_as: KiloGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: KiloGM-PER-M2
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass per area
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-6cbbfef5b3
   unique_name: kg/m³
   name: kg/m³
-  label: kg/m³
+  ui_label: kg/m³
   same_unit_as: KiloGM-PER-M3
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: KiloGM-PER-M3
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-26b8947f70
   unique_name: kU/L
   name: kU/L
-  label: kU/L
+  ui_label: kU/L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: KiloIU-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-d20caec3b4
   unique_name: L
   name: L
-  label: L
+  ui_label: L
   same_unit_as: L
   quantity_kind: Volume
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-a72ae11818
   unique_name: mg/dL
   name: mg/dL
-  label: mg/dL
+  ui_label: mg/dL
   same_unit_as: MilliGM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliGM-PER-DeciL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-59850d7504
   unique_name: mg/L
   name: mg/L
-  label: mg/L
+  ui_label: mg/L
   same_unit_as: MilliGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliGM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-faf5a659ca
   unique_name: milj/µL
   name: milj/µL
-  label: milj/µL
+  ui_label: milj/µL
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-bd28e8837e
   unique_name: mIU/L
   name: mIU/L
-  label: mIU/L
+  ui_label: mIU/L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliIU-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-f2ccf692ed
   unique_name: mLU/L
   name: mLU/L
-  label: mLU/L
+  ui_label: mLU/L
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-41ad0973b5
   unique_name: mmol/mol
   name: mmol/mol
-  label: mmol/mol
+  ui_label: mmol/mol
   same_unit_as: MilliMOL-PER-MOL
   quantity_kind: MolarRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliMOL-PER-MOL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: molar ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-7436f942d5
   unique_name: month
   name: month
-  label: month
+  ui_label: month
   same_unit_as: MO
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MO
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-da36cfaf48
   unique_name: months
   name: months
-  label: months
+  ui_label: months
   same_unit_as: MO
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MO
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-d06da2c4b5
   unique_name: ng/dL
   name: ng/dL
-  label: ng/dL
+  ui_label: ng/dL
   same_unit_as: NanoGM-PER-DeciL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-DeciL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-3e6ee1b439
   unique_name: ng/filter
   name: ng/filter
-  label: ng/filter
+  ui_label: ng/filter
   same_unit_as: NanoGM
   quantity_kind: Mass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass per filter
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-aab103ad96
   unique_name: ng/g
   name: ng/g
-  label: ng/g
+  ui_label: ng/g
   same_unit_as: MicroGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-0c9937cdb5
   unique_name: ng/L
   name: ng/L
-  label: ng/L
+  ui_label: ng/L
   same_unit_as: NanoGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-779f42fc6c
   unique_name: ng/mL
   name: ng/mL
-  label: ng/mL
+  ui_label: ng/mL
   same_unit_as: NanoGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-1af373c2c2
   unique_name: nmol/L
   name: nmol/L
-  label: nmol/L
+  ui_label: nmol/L
   same_unit_as: NanoMOL-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoMOL-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-b1bc248a7f
   unique_name: number
   name: number
-  label: number
+  ui_label: number
   same_unit_as: NUM
   quantity_kind: Count
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NUM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: number
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-51db0410c0
   unique_name: number per day
   name: number per day
-  label: number per day
+  ui_label: number per day
   same_unit_as: PER-DAY
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PER-DAY
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-ce740994a3
   unique_name: number per week
   name: number per week
-  label: number per week
+  ui_label: number per week
   same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PER-WK
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-a7c4148e3f
   unique_name: Osm/L
   name: Osm/L
-  label: Osm/L
+  ui_label: Osm/L
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: OSM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: osmotic concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-235ec52392
   unique_name: pg
   name: pg
-  label: pg
+  ui_label: pg
   same_unit_as: PicoGM
   quantity_kind: Mass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PicoGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-1859d6e0cd
   unique_name: pg BEQ/g
   name: pg BEQ/g
-  label: pg BEQ/g
+  ui_label: pg BEQ/g
   same_unit_as: PicoGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PicoGM-PER-GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: bioanalytical equivalent mass ratio
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-12efdabeb0
   unique_name: pg/mL
   name: pg/mL
-  label: pg/mL
+  ui_label: pg/mL
   same_unit_as: PicoGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PicoGM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-9434f457fa
   unique_name: pmol/g
   name: pmol/g
-  label: pmol/g
+  ui_label: pmol/g
   same_unit_as: FemtoMOL-PER-KiloGM
   quantity_kind: AmountOfSubstancePerMass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: FemtoMOL-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance per mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-af74171a7f
   unique_name: pmol/g globin
   name: pmol/g globin
-  label: pmol/g globin
+  ui_label: pmol/g globin
   same_unit_as: FemtoMOL-PER-KiloGM
   quantity_kind: AmountOfSubstancePerMass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: FemtoMOL-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: substance per mass
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-105083a31a
   unique_name: ppb
   name: ppb
-  label: ppb
+  ui_label: ppb
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-2fedeb4516
   unique_name: pregnancies
   name: pregnancies
-  label: pregnancies
+  ui_label: pregnancies
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-ca1cd3c305
   unique_name: score
   name: score
-  label: score
+  ui_label: score
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-12ce66dac3
   unique_name: times per day
   name: times per day
-  label: times per day
+  ui_label: times per day
   same_unit_as: PER-DAY
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PER-DAY
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-53fa71cdeb
   unique_name: times per week
   name: times per week
-  label: times per week
+  ui_label: times per week
   same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PER-WK
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-ae60f11ab5
   unique_name: weeks
   name: weeks
-  label: weeks
+  ui_label: weeks
   same_unit_as: WK
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: WK
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-84cdc76cab
   unique_name: year
   name: year
-  label: year
+  ui_label: year
   same_unit_as: YR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: YR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-75034500ad
   unique_name: yearindication
   name: yearindication
-  label: yearindication
+  ui_label: yearindication
   same_unit_as: YR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: YR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-75aeb98e52
   unique_name: years
   name: years
-  label: years
+  ui_label: years
   same_unit_as: YR
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: YR
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-6a99c575ab
   unique_name: placeholder
   name: placeholder
-  label: placeholder
+  ui_label: placeholder
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: UNITLESS
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: observation
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-336d5ebc54
   unique_name: '-'
   name: '-'
-  label: '-'
+  ui_label: '-'
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: UNITLESS
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: observation
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-2499a12de8
   unique_name: µg/g crt
   name: µg/g crt
-  label: µg/g crt
+  ui_label: µg/g crt
   same_unit_as: MicroGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-7723621f81
   unique_name: number of cells
   name: number of cells
-  label: number of cells
+  ui_label: number of cells
   same_unit_as: NUM
   quantity_kind: Dimensionless
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NUM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: number of cells
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-c2c27ce89a
   unique_name: amount/mL
   name: amount/mL
-  label: amount/mL
+  ui_label: amount/mL
   same_unit_as: NUM-PER-MilliL
   quantity_kind: NumberDensity
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NUM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: amount per volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-da6d8eb6b3
   unique_name: dosing/week
   name: dosing/week
-  label: dosing/week
+  ui_label: dosing/week
   same_unit_as: PER-WK
   quantity_kind: Frequency
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PER-WK
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: frequency
   current_validation_status: deprecated
 - id: https://w3id.org/peh/UN-e3eb8bf899
   unique_name: µg/g
   name: µg/g
-  label: µg/g
+  ui_label: µg/g
   same_unit_as: MicroGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-43ddfb8ea7
   unique_name: kg/m2
   name: kg/m2
-  label: kg/m2
+  ui_label: kg/m2
   same_unit_as: KiloGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: KiloGM-PER-M2
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass per area
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-0a7d55be9d
   unique_name: minute
   name: minute
-  label: minute
+  ui_label: minute
   same_unit_as: MIN
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MIN
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-649fa05452
   unique_name: ng/m³
   name: ng/m³
-  label: ng/m³
+  ui_label: ng/m³
   same_unit_as: NanoGM-PER-M3
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-M3
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-700f241749
   unique_name: pg/mg
   name: pg/mg
-  label: pg/mg
+  ui_label: pg/mg
   same_unit_as: PicoGM-PER-MilliGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PicoGM-PER-MilliGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-388cf3ab51
   unique_name: ng/m²
   name: ng/m²
-  label: ng/m²
+  ui_label: ng/m²
   same_unit_as: NanoGM-PER-M2
   quantity_kind: MassPerArea
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-M2
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass per area
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-0822c6ab25
   unique_name: mL
   name: mL
-  label: mL
+  ui_label: mL
   same_unit_as: MilliL
   quantity_kind: Volume
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-640fd0cc0f
   unique_name: minutes
   name: minutes
-  label: minutes
+  ui_label: minutes
   same_unit_as: MIN
   quantity_kind: Time
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MIN
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: time
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-58d90ef8fa
   unique_name: mitochondrial/nuclear DNA
   name: mitochondrial/nuclear DNA
-  label: mitochondrial/nuclear DNA
+  ui_label: mitochondrial/nuclear DNA
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: UNITLESS
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mitochondrial/nuclear DNA
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-296f8887db
   unique_name: mg/kg
   name: mg/kg
-  label: mg/kg
+  ui_label: mg/kg
   same_unit_as: MilliGM-PER-KiloGM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliGM-PER-KiloGM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-6fae917b4d
   unique_name: ‰
   name: ‰
-  label: ‰
+  ui_label: ‰
   same_unit_as: PPTH
   quantity_kind: DimensionlessRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: PPTH
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-76f271a768
   unique_name: mmHg
   name: mmHg
-  label: mmHg
+  ui_label: mmHg
   same_unit_as: MilliM_HG
   quantity_kind: Pressure
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliM_HG
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: pressure
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-2e8c0c4699
   unique_name: mg/g
   name: mg/g
-  label: mg/g
+  ui_label: mg/g
   same_unit_as: MilliGM-PER-GM
   quantity_kind: MassRatio
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MilliGM-PER-GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass ratio
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-9e59585b61
   unique_name: U/L
   name: U/L
-  label: U/L
+  ui_label: U/L
   same_unit_as: IU-PER-L
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: IU-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: amount per volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-8d1c4e2abe
   unique_name: IU/mL
   name: IU/mL
-  label: IU/mL
+  ui_label: IU/mL
   same_unit_as: IU-PER-MilliL
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: IU-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: amount per volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-b2f5ff4743
   unique_name: g
   name: g
-  label: g
+  ui_label: g
   same_unit_as: GM
   quantity_kind: Mass
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: GM
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-ba93558c6c
   unique_name: ng/ml
   name: ng/ml
-  label: ng/ml
+  ui_label: ng/ml
   same_unit_as: NanoGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: NanoGM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-ed81454169
   unique_name: unitless
   name: unitless
-  label: unitless
+  ui_label: ''
   same_unit_as: UNITLESS
   quantity_kind: Dimensionless
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: UNITLESS
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: observation
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-1b4d43c82c
   unique_name: µg/ml
   name: µg/ml
-  label: µg/ml
+  ui_label: µg/ml
   same_unit_as: MicroGM-PER-MilliL
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-MilliL
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-f1b5a7bbe4
   unique_name: μIU/mL
   name: μIU/mL
-  label: μIU/mL
+  ui_label: μIU/mL
   quantity_kind: AmountOfSubstanceConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: amount per volume
   current_validation_status: validated
 - id: https://w3id.org/peh/UN-3b23aa6a4d
   unique_name: μg/L
   name: μg/L
-  label: μg/L
+  ui_label: μg/L
   same_unit_as: MicroGM-PER-L
   quantity_kind: MassConcentration
   context_aliases:
-  - property_name: label
+  - property_name: name
     context: QUDT
     alias: MicroGM-PER-L
-  - property_name: label
+  - property_name: name
     context: IOP
     alias: mass concentration
   current_validation_status: validated
